@@ -27,12 +27,12 @@ file-id = { path = "file-id" }
 filetime = "0.2.22"
 fsevent-sys = "4.0.0"
 futures = "0.3.30"
-inotify = { version = "0.10.2", default-features = false }
+inotify = { version = "0.11.0", default-features = false }
 insta = "1.34.0"
 kqueue = "1.0.8"
 libc = "0.2.4"
 log = "0.4.17"
-mio = { version = "0.8.10", features = ["os-ext"] }
+mio = { version = "1.0.2", features = ["os-ext"] }
 mock_instant = "0.3.0"
 instant = "0.1.12"
 nix = "0.27.0"
