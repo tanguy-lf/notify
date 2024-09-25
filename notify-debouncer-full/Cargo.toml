@@ -25,6 +25,7 @@ serialization-compat-6 = ["notify/serialization-compat-6"]
 notify.workspace = true
 notify-types.workspace = true
 crossbeam-channel = { workspace = true, optional = true }
+tokio = { workspace = true, optional = true }
 file-id.workspace = true
 walkdir.workspace = true
 log.workspace = true
