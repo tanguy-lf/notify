@@ -16,7 +16,6 @@ repository.workspace = true
 default = ["macos_fsevent"]
 serde = ["notify-types/serde"]
 crossbeam-channel = ["dep:crossbeam-channel", "notify/crossbeam-channel"]
-tokio = { workspace = true, optional = true }
 macos_fsevent = ["notify/macos_fsevent"]
 macos_kqueue = ["notify/macos_kqueue"]
 serialization-compat-6 = ["notify/serialization-compat-6"]
@@ -25,4 +24,5 @@ serialization-compat-6 = ["notify/serialization-compat-6"]
 notify.workspace = true
 notify-types.workspace = true
 crossbeam-channel = { workspace = true, optional = true }
+tokio = { workspace = true, optional = true }
 log.workspace = true
