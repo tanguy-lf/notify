@@ -270,7 +270,7 @@ impl EventHandler for std::sync::mpsc::Sender<Result<Event>> {
 #[cfg(feature = "tokio")]
 impl EventHandler for tokio::sync::mpsc::Sender<Result<Event>> {
     fn handle_event(&mut self, event: Result<Event>) {
-        let _ = self.send(event);
+        let _ = self.blocking_send(event);
     }
 }
 
